@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #f4f6f8;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -11,32 +11,49 @@ body {
 .card {
     background: #ffffff;
     border-radius: 12px;
-    border: 2px solid black;
-    width: 450px;
+    border: 2px solid #000;
+    width: 420px;
     overflow: hidden; 
-    padding: 0;
 }
 
 .card-header {
     background-color: #007b99;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px;
 }
 
 .card-header h2 {
     color: white;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
 }
 
 
+.icone-usuario {
+    width: 28px;
+    height: 28px;
+    filter: invert(1);
+}
+
 .card-body {
-    padding: 30px;
+    padding: 24px;
+}
+
+.descricao {
+    text-align: center;
+    font-weight: normal;
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 label {
     display: block;
     margin-bottom: 6px;
+    font-weight: bold;
 }
 
 input {
